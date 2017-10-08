@@ -1,0 +1,86 @@
+{
+  "name": "cordova-plugin-dialogs",
+  "version": "1.2.1",
+  "description": "Cordova Notification Plugin",
+  "cordova": {
+    "id": "cordova-plugin-dialogs",
+    "platforms": [
+      "firefoxos",
+      "android",
+      "browser",
+      "amazon-fireos",
+      "ubuntu",
+      "ios",
+      "blackberry10",
+      "wp7",
+      "wp8",
+      "windows8",
+      "windows"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apache/cordova-plugin-dialogs.git"
+  },
+  "keywords": [
+    "cordova",
+    "notification",
+    "ecosystem:cordova",
+    "cordova-firefoxos",
+    "cordova-android",
+    "cordova-browser",
+    "cordova-amazon-fireos",
+    "cordova-ubuntu",
+    "cordova-ios",
+    "cordova-blackberry10",
+    "cordova-wp7",
+    "cordova-wp8",
+    "cordova-windows8",
+    "cordova-windows"
+  ],
+  "scripts": {
+    "test": "npm run jshint",
+    "jshint": "node node_modules/jshint/bin/jshint www && node node_modules/jshint/bin/jshint src && node node_modules/jshint/bin/jshint tests"
+  },
+  "author": {
+    "name": "Apache Software Foundation"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "jshint": "^2.6.0"
+  },
+  "bugs": {
+    "url": "https://github.com/apache/cordova-plugin-dialogs/issues"
+  },
+  "homepage": "https://github.com/apache/cordova-plugin-dialogs#readme",
+  "_id": "cordova-plugin-dialogs@1.2.1",
+  "_shasum": "743bc8af0076a10a76f556c51340a530163d3153",
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-dialogs/-/cordova-plugin-dialogs-1.2.1.tgz",
+  "_from": "cordova-plugin-dialogs@>=1.2.1 <1.3.0",
+  "_npmVersion": "3.5.3",
+  "_nodeVersion": "5.4.1",
+  "_npmUser": {
+    "name": "stevegill",
+    "email": "stevengill97@gmail.com"
+  },
+  "dist": {
+    "shasum": "743bc8af0076a10a76f556c51340a530163d3153",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-dialogs/-/cordova-plugin-dialogs-1.2.1.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "csantanapr",
+      "email": "csantana23@gmail.com"
+    },
+    {
+      "name": "stevegill",
+      "email": "stevengill97@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/cordova-plugin-dialogs-1.2.1.tgz_1461189859438_0.7788550655823201"
+  },
+  "directories": {},
+  "readme": "ERROR: No README data found!"
+}
