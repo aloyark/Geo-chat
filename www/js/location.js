@@ -6,8 +6,7 @@ var locationInfo = function(position) {
          'Accuracy: '          + position.coords.accuracy          + '\n' +
          'Altitude Accuracy: ' + position.coords.altitudeAccuracy  + '\n' +
          'Heading: '           + position.coords.heading           + '\n' +
-         'Speed: '             + position.coords.speed             + '\n');
-         //'Timestamp: '         + position.timestamp                + '\n');
+         'Speed: '             + position.coords.speed);
 };
 
 //Error Callback
